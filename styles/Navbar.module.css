@@ -1,0 +1,43 @@
+.navigation {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.logo {
+  margin: .8em;
+  padding: .56em;
+  width: 3vh;
+  color: var(--green);
+}
+
+
+.navtag {
+  width: 40%;
+  height: 100%;
+  margin-right: 2em;
+  
+}
+
+.navtag * {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: .4em;
+  list-style: none;
+  color: var(--alice-blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.navtag * * {
+  width: auto;
+}
+
+.navtag * *:hover {
+  color: var(--green);
+}

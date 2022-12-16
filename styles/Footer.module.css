@@ -1,0 +1,22 @@
+.bottom {
+  height: 10vh;
+  background-color:#376a83;
+  color: var(--white);
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 34%) 0px -17px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+}
+
+.bottom p {
+  padding: 0.5em 0;
+}
+
+.bottom p span {
+  font-size: 1.1em;
+  font-weight: 500;
+  
+}
+
+.bottom p a {
+  text-decoration: none;
+  color: var(--green);
+}
